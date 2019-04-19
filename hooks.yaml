@@ -1,10 +1,16 @@
--   id: eslint
-    name: eslint
-    entry: eslint
-    language: node
-    files: \.jsx?$
-    args: []
+- id: eslint
+  name: eslint
+  entry: eslint
+  language: node
+  files: \.jsx?$
+  args: []
 
-    # Use additional_dependencies to install the actual node package
-    additional_dependencies: ['eslint@3.14.0', 'eslint-plugin-mocha@4.9.0', 'eslint-plugin-react@7.1.0', 'babel-eslint@8.2.2']
-    minimum_pre_commit_version: 0.7.0
+  # Use additional_dependencies to install the actual node package
+  additional_dependencies:
+    [
+      "eslint@3.14.0",
+      "eslint-plugin-mocha@4.9.0",
+      "eslint-plugin-react@7.1.0",
+      "babel-eslint@8.2.2",
+    ]
+  minimum_pre_commit_version: 0.7.0
