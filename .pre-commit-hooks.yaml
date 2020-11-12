@@ -13,5 +13,6 @@
       "eslint-plugin-mocha@4.11.0",
       "eslint-plugin-react@7.12.4",
       "babel-eslint@8.2.6",
+      "eslint-plugin-simple-import-sort@5.0.3",
     ]
   minimum_pre_commit_version: 0.7.0
